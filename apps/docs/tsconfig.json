@@ -1,0 +1,12 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "strictNullChecks": true,
+    "paths": {
+      "driver.js": ["../../packages/driver/src/driver.ts"],
+      "driver.js/hints": ["../../packages/driver/src/hints.ts"]
+    }
+  }
+}
